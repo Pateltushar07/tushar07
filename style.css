@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    width: 100%;
+}
+.container .section{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+}
+.container .section:nth-child(1){
+    background: url(papa.png);
+    background-size: cover;
+}
+.container .section:nth-child(2){
+    background: url(mummy2.jpg);
+    background-size: cover;
+}
+.container .section:nth-child(3){
+    background-image: url(khushi.jpg);
+    background-size: cover
+}
+.container .section:nth-child(4){
+    background: url(janvi.jpg);
+background-size:cover ;
+}
+.container .section:nth-child(5){
+    background: url(tushar.jpg);
+    background-size: cover;
+}
+.container .section:nth-child(6){
+    background: url(jeeet.jpg);
+    background-size: cover;
+}
